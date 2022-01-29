@@ -1,0 +1,7 @@
+Using tabcomplete in the Terminal will add years to your life, esp. when dealing with long rambling directory structures and filenames: Addadshashanammu.zip
+
+After unzipping the file using the unzip command, lots of "long rambling directory structures" are created.
+Lets cd to the very last folder, using tab, right before the "fang-of-haynekhtnamet" file.
+Marking the file as executable using chmod +x and running the file using ./ gives us the flag,
+picoCTF{l3v3l_up!_t4k3_4_r35t!_76266e38}
+
