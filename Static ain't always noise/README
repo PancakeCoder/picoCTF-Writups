@@ -1,0 +1,11 @@
+Can you look at the data in this binary: static? This BASH script might help!
+
+The description hints at using the bash script on the static. After using wget and chmod, I executed
+./ltdis.sh static
+to produce two text files.
+Running them through grep picoCTF, I found the flag, picoCTF{d15a5m_t34s3r_f6c48608}
+
+I could have also reached the flag using
+strings static | grep picoCTF
+
+
