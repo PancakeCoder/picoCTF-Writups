@@ -1,0 +1,8 @@
+Reading through the code keygenme-trial.py, you can see how the key is checked.
+
+Use the check_key function to put together the key
+We already know the two static parts of the key.
+Create Decode.py to generate the dynamic part.
+Use the positions of the sha256 of "MORTON" given in check_key.
+
+key = picoCTF{1n_7h3_|<3y_of_75fc1081}
